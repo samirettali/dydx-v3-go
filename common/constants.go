@@ -3,9 +3,9 @@ package common
 // API URLs
 const (
 	ApiHostMainnet = "https://api.dydx.exchange"
-	ApiHostRopsten = "https://api.stage.dydx.exchange"
+	ApiHostGoerli  = "https://api.stage.dydx.exchange"
 	WsHostMainnet  = "wss://api.dydx.exchange/v3/ws"
-	WsHostRopsten  = "wss://api.stage.dydx.exchange/v3/ws"
+	WsHostGoerli   = "wss://api.stage.dydx.exchange/v3/ws"
 )
 
 // Signature Types
@@ -24,7 +24,7 @@ const (
 // Ethereum Network IDs
 const (
 	NetworkIdMainnet = 1
-	NetworkIdRopsten = 3
+	NetworkIdGoerli  = 5
 )
 
 // Position Status Types
